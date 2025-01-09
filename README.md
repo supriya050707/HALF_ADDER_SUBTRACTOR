@@ -60,7 +60,9 @@ output sm,cy, df, bo;
  
  xor(sm,a,b);
 
- and(cy,a,b); xor(df,a,b);
+ and(cy,a,b); 
+ 
+ xor(df,a,b);
  
  and (bo,~a,b);
 
